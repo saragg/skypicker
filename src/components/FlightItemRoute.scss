@@ -1,0 +1,11 @@
+.route {
+    color: #999;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 16px;
+    .time {
+        font-size: 16px;
+        color: #333;
+    }
+}

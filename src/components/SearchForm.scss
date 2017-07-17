@@ -14,11 +14,11 @@ form {
     width: 100%;
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     @media (max-width: 624px) {
         flex-direction: column;
-        text-align: center;
+        text-align: -webkit-center;
     }
   }
   @media (max-width: 1080px) {

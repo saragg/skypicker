@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FontIcon from 'material-ui/FontIcon';
-import './List.css';
+import ContainerMessage from './ContainerMessage';
 
 const ListOf = (ListItem) => {
 
@@ -12,10 +12,10 @@ const ListOf = (ListItem) => {
     }
     return(
       <div>
-        {props.noResults && <div className="no-results">
-          <FontIcon className="fa fa-frown-o" style={iconStyle}/>
-          <p>Sorry, no results found</p>
-        </div>}
+        {props.noResults && <ContainerMessage
+          icon="fa fa-frown-o"
+          message="Sorry, no results found"/>
+        }
         {props.items.map((item, i) => <ListItem key={i} item={item}/>)}
       </div>
     )

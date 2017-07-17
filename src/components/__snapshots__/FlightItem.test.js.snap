@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+      "backgroundColor": "#ffffff",
+      "borderRadius": 2,
+      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+             0 1px 4px rgba(0, 0, 0, 0.12)",
+      "boxSizing": "border-box",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "fontFamily": "Roboto, sans-serif",
+      "marginBottom": "20px",
+      "muiPrepared": true,
+      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+      "zIndex": 1,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "paddingBottom": 8,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontSize": 14,
+          "muiPrepared": true,
+          "padding": 16,
+        }
+      }
+    >
+      <div
+        className="flight-box"
+      >
+        <div>
+          <div
+            className="title"
+          >
+            <div>
+              Barcelona
+              (
+              Tokio
+              )
+              <span
+                className="flag-icon flag-icon-es"
+              />
+            </div>
+            <div>
+              <span
+                className="fa fa-arrows-h"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "color": "#666",
+                    "display": "inline-block",
+                    "fontSize": "12px",
+                    "margin": "0 16px",
+                    "muiPrepared": true,
+                    "position": "relative",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                  }
+                }
+              />
+            </div>
+            <div>
+              (
+              )
+              <span
+                className="flag-icon flag-icon-jp"
+              />
+            </div>
+          </div>
+          <div />
+        </div>
+        <div
+          className="more-info"
+        >
+          <div
+            className="list"
+          >
+            <div
+              className="list-item"
+            >
+              <span
+                className="fa fa-clock-o"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "color": "#666",
+                    "display": "inline-block",
+                    "fontSize": 24,
+                    "muiPrepared": true,
+                    "position": "relative",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                  }
+                }
+              />
+              <span
+                className="text"
+              >
+                 
+                Departure time
+                 
+              </span>
+              18h 30m
+            </div>
+            <div
+              className="list-item"
+            >
+              <span
+                className="fa fa-clock-o"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "color": "#666",
+                    "display": "inline-block",
+                    "fontSize": 24,
+                    "muiPrepared": true,
+                    "position": "relative",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                  }
+                }
+              />
+              <span
+                className="text"
+              >
+                 
+                Return time
+                 
+              </span>
+              20h 45m
+            </div>
+            <div
+              className="list-item"
+            >
+              <span
+                className="fa fa-plane"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "color": "#666",
+                    "display": "inline-block",
+                    "fontSize": 24,
+                    "muiPrepared": true,
+                    "position": "relative",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                  }
+                }
+              />
+              <span
+                className="text"
+              >
+                 
+                Planes
+                 
+              </span>
+              0
+            </div>
+            <div
+              className="list-item"
+            >
+              <span
+                className="fa fa-bed"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "color": "#666",
+                    "display": "inline-block",
+                    "fontSize": 24,
+                    "muiPrepared": true,
+                    "position": "relative",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "userSelect": "none",
+                  }
+                }
+              />
+              <span
+                className="text"
+              >
+                 
+                Nights in destination
+                 
+              </span>
+              3
+            </div>
+          </div>
+        </div>
+        <div
+          className="price"
+        >
+          170
+          €
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

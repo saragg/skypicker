@@ -100,7 +100,6 @@ class SearchForm extends React.Component{
     const {flyFrom, to, dateFrom, dateTo, returnFrom, returnTo, typeFlight} = this.state
 
     const errors = this.validateForm({flyFrom, to, dateFrom, dateTo})
-    console.log(errors)
     if(Object.keys(errors).length === 0) {
       this.props.searchFlights({flyFrom, to, dateFrom, dateTo, returnFrom, returnTo, typeFlight})
     }
@@ -194,8 +193,6 @@ class SearchForm extends React.Component{
           
         }
     });
-
-    console.log(listOfIcon, optionsFrom)
 
     return (
 

@@ -24,17 +24,7 @@
             text-align: center;
         }
     }
-    .route {
-        color: #999;
-        display: flex;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
-        margin-top: 8px;
-        .time {
-            font-size: 16px;
-            color: #333;
-        }
-    }
+
     .more-info {
         .list {
             list-style-type: none;
@@ -44,13 +34,13 @@
             .list-item {
                 margin-bottom: 8px;
             }
-            span {
+            .fa, .text {
                 margin-left: 8px;
             }
             @media (max-width: 900px) {
                 margin-top: 16px;
                 flex-direction: row;
-                span {
+                .fa, .text {
                     margin: 0 8px;
                     display: none;
                 }
