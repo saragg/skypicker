@@ -10,542 +10,118 @@ exports[`Renders correctly 1`] = `
     <div
       className="half"
     >
-      <div
-        style={
+      <AutoComplete
+        anchorOrigin={
           Object {
-            "display": "inline-block",
-            "muiPrepared": true,
-            "position": "relative",
-            "width": 256,
+            "horizontal": "left",
+            "vertical": "bottom",
           }
         }
-      >
-        <div
-          className={undefined}
-          style={
-            Object {
-              "backgroundColor": "transparent",
-              "cursor": "auto",
-              "display": "inline-block",
-              "fontFamily": "Roboto, sans-serif",
-              "fontSize": 16,
-              "height": 72,
-              "lineHeight": "24px",
-              "muiPrepared": true,
-              "position": "relative",
-              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              "width": 256,
-            }
-          }
-        >
-          <label
-            className={undefined}
-            htmlFor="flyFrom-undefined-Origin-3186"
-            onTouchTap={undefined}
-            style={
-              Object {
-                "color": "rgba(0, 0, 0, 0.3)",
-                "lineHeight": "22px",
-                "muiPrepared": true,
-                "pointerEvents": "none",
-                "position": "absolute",
-                "top": 38,
-                "transform": "scale(1) translate(0, 0)",
-                "transformOrigin": "left top",
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                "userSelect": "none",
-                "zIndex": 1,
-              }
-            }
-          >
-            Origin
-          </label>
-          <input
-            autoComplete="off"
-            disabled={false}
-            id="flyFrom-undefined-Origin-3186"
-            name="flyFrom"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            open={false}
-            style={
-              Object {
-                "WebkitOpacity": 1,
-                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "appearance": "textfield",
-                "backgroundColor": "rgba(0,0,0,0)",
-                "border": "none",
-                "boxSizing": "border-box",
-                "color": "rgba(0, 0, 0, 0.87)",
-                "cursor": "inherit",
-                "font": "inherit",
-                "height": "100%",
-                "marginTop": 14,
-                "muiPrepared": true,
-                "outline": "none",
-                "padding": 0,
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-            type="text"
-            value=""
-          />
-          <div>
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#e0e0e0",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            />
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 2,
-                  "borderColor": "#00bcd4",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "transform": "scaleX(0)",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-        </div>
-        <div
-          style={
-            Object {
-              "display": "none",
-            }
-          }
-        />
-      </div>
-      <div
-        style={
+        animated={true}
+        dataSource={Array []}
+        dataSourceConfig={
           Object {
-            "display": "inline-block",
-            "muiPrepared": true,
-            "position": "relative",
-            "width": 256,
+            "text": "text",
+            "value": "value",
           }
         }
-      >
-        <div
-          className={undefined}
-          style={
-            Object {
-              "backgroundColor": "transparent",
-              "cursor": "auto",
-              "display": "inline-block",
-              "fontFamily": "Roboto, sans-serif",
-              "fontSize": 16,
-              "height": 72,
-              "lineHeight": "24px",
-              "muiPrepared": true,
-              "position": "relative",
-              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              "width": 256,
-            }
+        disableFocusRipple={true}
+        errorText={undefined}
+        filter={[Function]}
+        floatingLabelText="Origin"
+        fullWidth={false}
+        menuCloseDelay={300}
+        menuProps={
+          Object {
+            "autoWidth": true,
           }
-        >
-          <label
-            className={undefined}
-            htmlFor="to-undefined-Destination-38397"
-            onTouchTap={undefined}
-            style={
-              Object {
-                "color": "rgba(0, 0, 0, 0.3)",
-                "lineHeight": "22px",
-                "muiPrepared": true,
-                "pointerEvents": "none",
-                "position": "absolute",
-                "top": 38,
-                "transform": "scale(1) translate(0, 0)",
-                "transformOrigin": "left top",
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                "userSelect": "none",
-                "zIndex": 1,
-              }
-            }
-          >
-            Destination
-          </label>
-          <input
-            autoComplete="off"
-            disabled={false}
-            id="to-undefined-Destination-38397"
-            name="to"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            open={false}
-            style={
-              Object {
-                "WebkitOpacity": 1,
-                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "appearance": "textfield",
-                "backgroundColor": "rgba(0,0,0,0)",
-                "border": "none",
-                "boxSizing": "border-box",
-                "color": "rgba(0, 0, 0, 0.87)",
-                "cursor": "inherit",
-                "font": "inherit",
-                "height": "100%",
-                "marginTop": 14,
-                "muiPrepared": true,
-                "outline": "none",
-                "padding": 0,
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-            type="text"
-            value=""
-          />
-          <div>
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#e0e0e0",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            />
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 2,
-                  "borderColor": "#00bcd4",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "transform": "scaleX(0)",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-        </div>
-        <div
-          style={
-            Object {
-              "display": "none",
-            }
+        }
+        name="flyFrom"
+        onNewRequest={[Function]}
+        onUpdateInput={[Function]}
+        open={false}
+        openOnFocus={true}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
           }
-        />
-      </div>
+        }
+      />
+      <AutoComplete
+        anchorOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          }
+        }
+        animated={true}
+        dataSource={Array []}
+        dataSourceConfig={
+          Object {
+            "text": "text",
+            "value": "value",
+          }
+        }
+        disableFocusRipple={true}
+        errorText={undefined}
+        filter={[Function]}
+        floatingLabelText="Destination"
+        fullWidth={false}
+        menuCloseDelay={300}
+        menuProps={
+          Object {
+            "autoWidth": true,
+          }
+        }
+        name="to"
+        onNewRequest={[Function]}
+        onUpdateInput={[Function]}
+        open={false}
+        openOnFocus={true}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      />
     </div>
     <div
       className="half"
     >
-      <div
-        className={undefined}
-        style={
-          Object {
-            "muiPrepared": true,
-          }
-        }
-      >
-        <div
-          className={undefined}
-          style={
-            Object {
-              "backgroundColor": "transparent",
-              "cursor": "auto",
-              "display": "inline-block",
-              "fontFamily": "Roboto, sans-serif",
-              "fontSize": 16,
-              "height": 72,
-              "lineHeight": "24px",
-              "muiPrepared": true,
-              "position": "relative",
-              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              "width": 256,
-            }
-          }
-        >
-          <label
-            className={undefined}
-            htmlFor="dateFrom-undefined-Departuredate-40479"
-            onTouchTap={undefined}
-            style={
-              Object {
-                "color": "rgba(0, 0, 0, 0.3)",
-                "lineHeight": "22px",
-                "muiPrepared": true,
-                "pointerEvents": "none",
-                "position": "absolute",
-                "top": 38,
-                "transform": "scale(1) translate(0, 0)",
-                "transformOrigin": "left top",
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                "userSelect": "none",
-                "zIndex": 1,
-              }
-            }
-          >
-            Departure date
-          </label>
-          <input
-            disabled={false}
-            id="dateFrom-undefined-Departuredate-40479"
-            name="dateFrom"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onTouchTap={[Function]}
-            style={
-              Object {
-                "WebkitOpacity": 1,
-                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "appearance": "textfield",
-                "backgroundColor": "rgba(0,0,0,0)",
-                "border": "none",
-                "boxSizing": "border-box",
-                "color": "rgba(0, 0, 0, 0.87)",
-                "cursor": "inherit",
-                "font": "inherit",
-                "height": "100%",
-                "marginTop": 14,
-                "muiPrepared": true,
-                "outline": "none",
-                "padding": 0,
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-            type="text"
-            value=""
-          />
-          <div>
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#e0e0e0",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            />
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 2,
-                  "borderColor": "#00bcd4",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "transform": "scaleX(0)",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-        </div>
-        <div>
-          <div
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-          />
-        </div>
-      </div>
-      <div
-        className={undefined}
-        style={
-          Object {
-            "muiPrepared": true,
-          }
-        }
-      >
-        <div
-          className={undefined}
-          style={
-            Object {
-              "backgroundColor": "transparent",
-              "cursor": "auto",
-              "display": "inline-block",
-              "fontFamily": "Roboto, sans-serif",
-              "fontSize": 16,
-              "height": 72,
-              "lineHeight": "24px",
-              "muiPrepared": true,
-              "position": "relative",
-              "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              "width": 256,
-            }
-          }
-        >
-          <label
-            className={undefined}
-            htmlFor="dateTo-undefined-Returndate-14689"
-            onTouchTap={undefined}
-            style={
-              Object {
-                "color": "rgba(0, 0, 0, 0.3)",
-                "lineHeight": "22px",
-                "muiPrepared": true,
-                "pointerEvents": "none",
-                "position": "absolute",
-                "top": 38,
-                "transform": "scale(1) translate(0, 0)",
-                "transformOrigin": "left top",
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                "userSelect": "none",
-                "zIndex": 1,
-              }
-            }
-          >
-            Return date
-          </label>
-          <input
-            disabled={false}
-            id="dateTo-undefined-Returndate-14689"
-            name="dateTo"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onTouchTap={[Function]}
-            style={
-              Object {
-                "WebkitOpacity": 1,
-                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-                "appearance": "textfield",
-                "backgroundColor": "rgba(0,0,0,0)",
-                "border": "none",
-                "boxSizing": "border-box",
-                "color": "rgba(0, 0, 0, 0.87)",
-                "cursor": "inherit",
-                "font": "inherit",
-                "height": "100%",
-                "marginTop": 14,
-                "muiPrepared": true,
-                "outline": "none",
-                "padding": 0,
-                "position": "relative",
-                "width": "100%",
-              }
-            }
-            type="text"
-            value=""
-          />
-          <div>
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 1,
-                  "borderColor": "#e0e0e0",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            />
-            <hr
-              aria-hidden="true"
-              style={
-                Object {
-                  "borderBottomStyle": "solid",
-                  "borderBottomWidth": 2,
-                  "borderColor": "#00bcd4",
-                  "borderLeft": "none",
-                  "borderRight": "none",
-                  "borderTop": "none",
-                  "bottom": 8,
-                  "boxSizing": "content-box",
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "position": "absolute",
-                  "transform": "scaleX(0)",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "width": "100%",
-                }
-              }
-            />
-          </div>
-        </div>
-        <div>
-          <div
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-          />
-        </div>
-      </div>
+      <DatePicker
+        autoOk={true}
+        container="inline"
+        disableYearSelection={false}
+        disabled={false}
+        errorText={undefined}
+        firstDayOfWeek={1}
+        floatingLabelText="Departure date"
+        formatDate={[Function]}
+        hideCalendarDate={false}
+        mode="landscape"
+        name="dateFrom"
+        onChange={[Function]}
+        shouldDisableDate={[Function]}
+        style={Object {}}
+      />
+      <DatePicker
+        autoOk={true}
+        container="inline"
+        disableYearSelection={false}
+        disabled={false}
+        errorText={undefined}
+        firstDayOfWeek={1}
+        floatingLabelText="Return date"
+        formatDate={[Function]}
+        hideCalendarDate={false}
+        mode="landscape"
+        name="dateTo"
+        onChange={[Function]}
+        shouldDisableDate={[Function]}
+        style={Object {}}
+      />
     </div>
   </div>
   <div
@@ -555,133 +131,23 @@ exports[`Renders correctly 1`] = `
       }
     }
   >
-    <div
-      className={undefined}
-      style={
-        Object {
-          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-          "backgroundColor": "#ffffff",
-          "borderRadius": 2,
-          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
-                 0 1px 4px rgba(0, 0, 0, 0.12)",
-          "boxSizing": "border-box",
-          "color": "rgba(0, 0, 0, 0.87)",
-          "display": "inline-block",
-          "fontFamily": "Roboto, sans-serif",
-          "minWidth": 88,
-          "muiPrepared": true,
-          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-        }
-      }
-    >
-      <button
-        disabled={false}
-        href={undefined}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchStart={[Function]}
-        onTouchTap={[Function]}
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "#ff4081",
-            "border": 10,
-            "borderRadius": 2,
-            "boxSizing": "border-box",
-            "cursor": "pointer",
-            "display": "inline-block",
-            "fontFamily": "Roboto, sans-serif",
-            "fontSize": "inherit",
-            "fontWeight": "inherit",
-            "height": 36,
-            "lineHeight": "36px",
-            "margin": 0,
-            "muiPrepared": true,
-            "outline": "none",
-            "padding": 0,
-            "position": "relative",
-            "textAlign": "center",
-            "textDecoration": "none",
-            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-            "verticalAlign": null,
-            "width": "100%",
-            "zIndex": 1,
-          }
-        }
-        tabIndex={0}
-        type="Submit"
-      >
-        <div
-          onMouseDown={[Function]}
+    <RaisedButton
+      backgroundColor="#a4c639"
+      disabled={false}
+      fullWidth={false}
+      icon={
+        <FontIcon
+          className="fa fa-search"
+          onMouseEnter={[Function]}
           onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchStart={[Function]}
-        >
-          <div
-            style={
-              Object {
-                "backgroundColor": false,
-                "borderRadius": 2,
-                "height": 36,
-                "muiPrepared": true,
-                "top": 0,
-                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-              }
-            }
-          >
-            <span
-              className="fa fa-search"
-              color="#ffffff"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              style={
-                Object {
-                  "color": "#ffffff",
-                  "display": "inline-block",
-                  "fontSize": 24,
-                  "marginLeft": 12,
-                  "marginRight": 0,
-                  "muiPrepared": true,
-                  "position": "relative",
-                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-                  "userSelect": "none",
-                  "verticalAlign": "middle",
-                }
-              }
-            />
-            <span
-              style={
-                Object {
-                  "color": "#ffffff",
-                  "fontSize": 14,
-                  "fontWeight": 500,
-                  "letterSpacing": 0,
-                  "margin": 0,
-                  "muiPrepared": true,
-                  "opacity": 1,
-                  "paddingLeft": 8,
-                  "paddingRight": 16,
-                  "position": "relative",
-                  "textTransform": "uppercase",
-                  "userSelect": "none",
-                }
-              }
-            >
-              Search
-            </span>
-          </div>
-        </div>
-      </button>
-    </div>
+        />
+      }
+      label="Search"
+      labelPosition="after"
+      primary={false}
+      secondary={true}
+      type="Submit"
+    />
   </div>
 </form>
 `;

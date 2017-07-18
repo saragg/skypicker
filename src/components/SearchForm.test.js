@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchForm from './SearchForm';
-import renderer from 'react-test-renderer';
+import ShallowRenderer from 'react-test-renderer/shallow';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 test('Renders correctly', () => {
@@ -9,11 +9,11 @@ test('Renders correctly', () => {
     return;
   }
 
-  const tree = renderer.create(
-    <MuiThemeProvider>
-      <SearchForm searchFlights={searchFlights}/>
-    </MuiThemeProvider>
-  ).toJSON();
+  const renderer = new ShallowRenderer();
+
+  const tree = renderer.render(
+    <SearchForm searchFlights={searchFlights}/>
+  );
 
   expect(tree).toMatchSnapshot();
 });

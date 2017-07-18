@@ -4,7 +4,6 @@ import ListOf from './List';
 import FlightItem from './FlightItem';
 import ContainerMessage from './ContainerMessage';
 import CircularProgress from 'material-ui/CircularProgress';
-import FontIcon from 'material-ui/FontIcon'
 
 import Api from '../services/Api';
 

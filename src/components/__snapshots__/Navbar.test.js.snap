@@ -64,26 +64,27 @@ exports[`Renders correctly 1`] = `
       }
     }
   >
-    <span
-      className="fa fa-github"
-      color="rgba(0, 0, 0, 0.4)"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "color": "rgba(0, 0, 0, 0.4)",
-          "cursor": "pointer",
-          "display": "inline-block",
-          "fontSize": 24,
-          "lineHeight": "56px",
-          "muiPrepared": true,
-          "paddingLeft": 24,
-          "position": "relative",
-          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
-          "userSelect": "none",
+    <a
+      href="https://github.com/saragg/skypicker"
+      target="__blank"
+    >
+      <span
+        className="fa fa-github"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "display": "inline-block",
+            "fontSize": 24,
+            "muiPrepared": true,
+            "position": "relative",
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            "userSelect": "none",
+          }
         }
-      }
-    />
+      />
+    </a>
   </div>
 </div>
 `;

@@ -9,7 +9,9 @@ const Navbar = (props) => {
         <ToolbarTitle text="Kiwi Skypicker" />
       </ToolbarGroup>
       <ToolbarGroup>
-        <FontIcon className="fa fa-github" />
+        <a target="__blank" href="https://github.com/saragg/skypicker">
+          <FontIcon className="fa fa-github" />
+        </a>
       </ToolbarGroup>
     </Toolbar>
   )
