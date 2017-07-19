@@ -1,6 +1,7 @@
 # Simple Skypicker
 
 ## See the demo here: https://skypicker-kiwi-sgg-test.herokuapp.com/
+Enjoy! :)
 
 ## Run the app
 
@@ -19,5 +20,3 @@ npm test
 ```
 npm build
 ```
-
-Enjoy! :)
